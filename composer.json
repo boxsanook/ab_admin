@@ -1,0 +1,19 @@
+{
+    "name": "login-project",
+    "description": "PHP Login System",
+    "type": "project",
+    "license": "proprietary",
+    "minimum-stability": "stable",
+    "repositories": [{
+        "type": "vcs",
+        "url": "https://github.com/yourusername/login-project"
+    }],
+    "require": {
+        "php": ">=7.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
